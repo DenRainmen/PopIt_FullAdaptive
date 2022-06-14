@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,900&display=swap');
+
+
+*{
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: calc(0.3em + 0.5vw);
+}
+
+
+
+
+
+.outer-wrapper{
+	padding: 0 15em;
+}
+
+
+                              /*header*/
+
+.inner-wrapper{
+	padding-top: 1em;
+}
+
+
+
+header{
+	 width: 100%;
+	 height: 25vw;
+	 background: inherit;
+	 border: 1px solid #000;
+	 background: #ffb350;
+
+	 
+	 
+}
+
+.header__navbar{
+	width: 100%;
+	/* height: 20%; */
+	/* border: 1px solid #000; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 10em;
+}
+
+.header-menu{
+	display: flex;
+	height: 3vw;
+	width: 30vw;
+	justify-content: space-between;
+	align-items: center;
+	/* border: 1px solid rgb(223, 23, 23); */
+}
+
+.header-menu__link{
+	color: initial;
+	text-decoration: none;
+}
+
+/* .header-menu span:nth-of-type(1n+2){
+	margin-left: 5em;
+} */
+
+.header__section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: snow;
+
+}
+
+.big-title h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 8em;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.big-title h3{
+	
+	font-size: 1.3em;
+
+}
+
+.big-title__button{
+	display: inline-block;
+	padding: 1em 2.5em;
+	margin-top: 2em;
+	background: #24c2c2;
+	color: initial;
+	border-radius: 2px;
+	
+	
+}
+
+
+.big-image{
+	/* border: 5px solid #000; */
+	margin-right: 20em;
+	height: 28em;
+	width: 18em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	/* background: gray; */
+	
+}
+
+.img-wrap{
+	position: absolute;
+	z-index: 3;
+}
+
+
+.big-image img{
+	width: 18em;
+	
+	
+} 
+
+.oval{
+    width: 17em;
+    height: 30em;
+    background: #fadaaa;
+    border-radius: 50%;
+    transform: rotate(50deg);
+	position: absolute;
+	z-index: 2;  
+
+}
+
+
+                                           /* main*/
+
+/*section.central-text*/
+
+.central-text{
+	height: 25vh;
+	border: 1px solid #000;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items:center
+}
